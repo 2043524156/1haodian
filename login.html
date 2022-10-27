@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <header class="clearFix">
+        <div>
+            <div class="logo">
+                <img src="./images/loginlogo.jpg" alt="">
+            </div>
+            <div class="header_text">
+                <span>您好，欢迎光临1号店！<a href="./enter.html">请登录</a></span>
+                <a href="#"><i class="runbun"></i>帮助中心<i class="turnb"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <form action="">
+            <div class="main">
+                <h2>1号店注册</h2>
+                <div class="tell">
+                    <input type="text" name="phone" required placeholder="手机号码" pattern="^1[3578]\d{9}$" />
+                </div>
+                <div class="yzm clearFix">
+                    <input class="yanzheng" type="text" name="yanzheng" placeholder="验证码" />
+                    <a class="hqyzm" href="#">获取验证码</a>
+                </div>
+                <div class="psd tell">
+                    <input type="password" name="password" required placeholder="设置密码" pattern="^\w{6,10}$" />
+                </div>
+                <div class="psd1 tell">
+                    <input type="password" name="rePassword" required placeholder="确认密码" pattern="^\w{6,10}$" />
+                </div>
+                <p class="agreement">点击注册，表示您同意1号店 <a href="#">《服务协议》</a></p>
+                <input type="button" class="submit_" value="同意协议并注册">
+            </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p><a href="#">沪ICP备13044278号</a>|&nbsp;&nbsp;合字B1.B2-20130004&nbsp;&nbsp;|<a href="#">营业执照</a></p>
+        <p>Copyright © 1号店网上超市 2007-2016，All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
+
+<script src="./js/login.js"></script>
